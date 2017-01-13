@@ -1,0 +1,23 @@
+{
+    "name": "dexa/module-indexer",
+    "description": "A Magento 2 extension that add availability to do reindex from backend",
+    "require": {
+        "magento/module-store": "*",
+        "magento/module-theme": "*",
+        "magento/module-cms": "*",
+        "magento/module-catalog": "*",
+        "magento/module-eav": "*"
+    },
+    "type": "magento2-module",
+    "version": "2.1.0.4",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Dexa\\Indexer\\": ""
+        }
+    }
+}
